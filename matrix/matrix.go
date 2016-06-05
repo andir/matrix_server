@@ -1,0 +1,17 @@
+package matrix
+
+type MErrorCode string
+
+const (
+	M_FORBIDDEN MErrorCode = "M_FORBIDDEN"
+	M_UNKNOWN MErrorCode = "M_UNKNOWN"
+	M_UNKNOWN_TOKEN MErrorCode = "M_UNKNOWN_TOKEN"
+	M_BAD_JSON MErrorCode = "M_BAD_JSON"
+	M_NOT_JSON MErrorCode = "M_NOT_JSON"
+	M_NOT_FOUND MErrorCode = "M_NOT_FOUND"
+	M_LIMIT_EXCEEDED MErrorCode = "M_LIMIT_EXCEEDED"
+	M_USER_IN_USE MErrorCode = "M_USER_IN_USE"
+	M_INVALID_USERNAME MErrorCode = "M_INVALID_USERNAME"
+	M_ROOM_IN_USE MErrorCode = "M_ROOM_IN_USE"
+	M_BAD_PAGINATION MErrorCode = "M_BAD_PAGINATION"
+)
